@@ -22,7 +22,7 @@ const Room = () => {
   useEffect(() => {
     const getSedeById = async () => {
       try {
-        console.log("Prueba 1", _id)
+        console.log("Prueba 2", _id)
         if (!_id && _id === '') return;
         const response = await apiConnection.get<Campus>(
           `/campus/get-campus-by-id/${_id}`
